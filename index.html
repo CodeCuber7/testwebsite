@@ -12,8 +12,57 @@
         document.body.style.background = color;
     }
 </script>
+<script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
 <style>
-body    {background-color: powderblue;}
+body    {
+  background-color: powderblue;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+#navbar a.notactive {
+  background-color: #333;
+  color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .pdiv   {
     color:red;
     background-color:pink;
@@ -106,25 +155,16 @@ a:hover, a:active {
   display: inline-block;
   cursor: pointer
 }
-.tolink  {
-  background-color: rgb(55, 65, 75);
-  color: white;
-  border: none;
-  padding: 12px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer
-}
-.sticky {
-    position: sticky;
-}
 </style>
 </head>
 <body>
-<a href="https://codecuber7.github.io/testwebsite/otherpage.html" class="toplink">Other Page</a>
+<div id="navbar">
+    <a class="active" href="https://codecuber7.github.io/testwebsite/">Home</a>
+    <a class="notactive" href="https://codecuber7.github.io/testwebsite/otherpage">Other Page</a>
+</div>
 <div class="shadow">
-<h1>Cubing<i class="fa-sharp fa-solid fa-meteor"></i></h1>
+  <h1>Cubing<i class="fa-sharp fa-solid fa-meteor"></i></h1>
+</div>
 </div>
 <br>    
 <div class="pdiv">
