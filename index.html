@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Cubing</title>
+<title>
+  Cubing
+</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color-pixels/2x/experimental-lock-color-pixels.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
@@ -33,6 +38,8 @@ body    {
 #navbar {
   overflow: hidden;
   background-color: #333;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #navbar a {
@@ -40,9 +47,10 @@ body    {
   display: block;
   color: white;
   text-align: center;
-  padding: 12px 25px;
+  padding: 16px 25px;
   text-decoration: none;
   font-size: 17px;
+  height: 50;
 }
 
 #navbar a:hover {
@@ -62,6 +70,9 @@ body    {
   position: fixed;
   top: 0;
   width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
 }
 .pdiv   {
     color:red;
@@ -155,12 +166,18 @@ a:hover, a:active {
   display: inline-block;
   cursor: pointer
 }
+.search {
+  height: 20px;
+  margin-top: 13px;
+  font-size: 20px;
+}
 </style>
 </head>
 <body>
 <div id="navbar">
     <a class="active" href="https://codecuber7.github.io/testwebsite/">Home</a>
     <a class="notactive" href="https://codecuber7.github.io/testwebsite/otherpage">Other Page</a>
+    <input type="text" placeholder="Search" class="search">
 </div>
 <div class="shadow">
   <h1>Cubing<i class="fa-sharp fa-solid fa-meteor"></i></h1>
@@ -168,7 +185,9 @@ a:hover, a:active {
 </div>
 <br>    
 <div class="pdiv">
-<p> Cubing is one of the best hobbys because there's a great comunity and they will accept you. It's also alot of fun trying to get faster. <a href="https://www.jperm.net" target="_blank">Visit Jperm.net</a>
+<p> 
+  Cubing is one of the best hobbys because there's a great comunity and they will accept you. It's also alot of fun trying to get faster. 
+  <a href="https://www.jperm.net" target="_blank">Visit Jperm.net</a>
 </p>
 <div>
     <label>Change Webpage Background To:</label>
@@ -181,9 +200,10 @@ a:hover, a:active {
 <img src="https://tse1.mm.bing.net/th?id=OIP.F9iLtNCpPEUMIiDr1dT67AHaEo&pid=Api&P=0" alt="html code" style="width: 500px;height: 300px;">
 <aside>
 <div class="hdiv">
-<h2>Top 2 Cubers In The World</h2>
+  <h2>Top 2 Cubers In The World</h2>
 </div>
 <br>
+<div>
 <table style="width:100%">
   <tr>
     <th>Cuber</th>
@@ -201,17 +221,18 @@ a:hover, a:active {
     <td>4.86(WR)</td>
   </tr>
 </table>
+</div>
 <br>
 <div class="pdiv">
-<p>These are the times of the 2 best cubers in the world.</p>
+  <p>These are the times of the 2 best cubers in the world.</p>
 </div>
 </aside>
 <br>
-<iframe height="400" width="1400" src="https://www.cubeskills.com/" title="CubeSkills"></iframe>
+  <iframe height="400" width="1400" src="https://www.cubeskills.com/" title="CubeSkills"></iframe>
 <br>
-<button type="button" onclick="myFunction()">Click To Change Word Under Me</button>
+    <button type="button" onclick="myFunction()">Click To Change Word Under Me</button>
 <div class="pdiv">
-<p id="cubing is cool">Cubing Is Cool</p>
+  <p id="cubing is cool">Cubing Is Cool</p>
 </div>
 <br>
 <script>
