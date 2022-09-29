@@ -11,26 +11,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
 <script src="https://kit.fontawesome.com/a728481272.js" crossorigin="anonymous"></script>
-<script>
-    // Function to change webpage background color
-    function changeBodyBg(color){
-        document.body.style.background = color;
-    }
-</script>
-<script>
-  window.onscroll = function() {myFunction()};
-  
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-</script>
 <style>
 body    {
   background-color: powderblue;
@@ -179,6 +159,26 @@ a:hover, a:active {
     <a class="notactive" href="https://codecuber7.github.io/testwebsite/otherpage">Other Page</a>
     <input type="text" placeholder="Search" class="search">
 </div>
+<script>
+  // Function to change webpage background color
+  function changeBodyBg(color){
+      document.body.style.background = color;
+  }
+</script>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 <div class="shadow">
   <h1>Cubing<i class="fa-sharp fa-solid fa-meteor"></i></h1>
 </div>
