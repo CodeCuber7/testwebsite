@@ -2,6 +2,20 @@
 <html lang="en">
 <head>
 <title>Othere Page</title>
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 <style>
     body    {
       background-color: powderblue;
@@ -68,20 +82,6 @@
         <a class="active" href="https://codecuber7.github.io/testwebsite/Otherpage.html">Other Page</a>
         <input type="text" placeholder="Search" class="search">
     </div>
-    <script>
-      window.onscroll = function() {myFunction()};
-      
-      var navbar = document.getElementById("navbar");
-      var sticky = navbar.offsetTop;
-      
-      function myFunction() {
-        if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky")
-        } else {
-          navbar.classList.remove("sticky");
-        }
-      }
-      </script>
 <h1>This Is An Otherpage</h1>
 </body>
 </html>
