@@ -30,6 +30,7 @@ body    {
   background-color: #333;
   height: 50px;
   font-family: 'Roboto', sans-serif;
+  position: sticky;
 }
 
 #navbar a {
@@ -56,10 +57,21 @@ body    {
   background-color: #333;
   color: white;
 }
+.content {
+  padding: 16px;
+}
 .sticky {
   position: sticky;
   top: 0;
   width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.search {
+  height: 20px;
+  margin-top: 13px;
+  font-size: 20px;
 }
 .pdiv   {
     color:red;
@@ -153,11 +165,6 @@ a:hover, a:active {
   display: inline-block;
   cursor: pointer
 }
-.search {
-  height: 20px;
-  margin-top: 13px;
-  font-size: 20px;
-}
 </style>
 </head>
 <body>
@@ -180,7 +187,8 @@ a:hover, a:active {
     }
   }
   </script>
-<div class="shadow">
+<br>
+<div class="shadow"
   <h1>Cubing<i class="fa-sharp fa-solid fa-meteor"></i></h1>
 </div>
 </div>
