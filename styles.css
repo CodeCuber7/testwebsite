@@ -8,20 +8,17 @@ body    {
       font-family:courier;
       font-size:120%;
       border: 2px solid Tomato;
-      margin-left: 10px;
   }
   .hdiv   {
       background-color:pink;
       font-family:courier;
       font-size:120%;
       border: 2px solid Tomato;
-      margin-left: 10px;
   }
   .mydiv {
     border: 10px outset red;
     background-color: lightblue;    
     text-align: center;
-    margin-left: 10px;
   }
   table, th, td {
     border:1px solid tomato;
@@ -116,7 +113,7 @@ body    {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: #111 !important;
   }
   
   .active {
