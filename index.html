@@ -15,23 +15,10 @@
       document.body.style.background = color;
   }
 </script>
-<script>
-  window.onscroll = function() {myFunction()};
-  
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  </script>
 <style>
 body    {
   background-color: powderblue;
+  margin-top: 0px;
 
 }
 #navbar {
@@ -39,6 +26,8 @@ body    {
   background-color: #333;
   height: 50px;
   font-family: 'Roboto', sans-serif;
+  position: fixed;
+  width: 20000px;
 }
 
 #navbar a {
@@ -67,14 +56,6 @@ body    {
 }
 .content {
   padding: 16px;
-}
-.sticky {
-  position: sticky;
-  top: 0;
-  width: 100%;
-}
-.sticky + .content {
-  padding-top: 60px;
 }
 .search {
   height: 20px;
@@ -182,7 +163,6 @@ a:hover, a:active {
     <input type="text" placeholder="Search" class="search">
 </div>
 <br>
-<div class="content">
 <div class="shadow">
   <h1>Cubing<i class="fa-sharp fa-solid fa-meteor"></i></h1>
 </div>
@@ -303,7 +283,6 @@ ctx.stroke()
 <svg width="100" height="100">
     <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="black" />
   </svg>
-</div>
 </div>
 </body>
 </html>
