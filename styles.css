@@ -2,6 +2,7 @@ body    {
     background-color: powderblue;
     margin-top: 0px;
   }
+  
   .pdiv   {
       color:red;
       background-color:pink;
@@ -9,23 +10,27 @@ body    {
       font-size:120%;
       border: 2px solid Tomato;
   }
+
   .hdiv   {
       background-color:pink;
       font-family:courier;
       font-size:120%;
       border: 2px solid Tomato;
   }
+
   .mydiv {
     border: 10px outset red;
     background-color: lightblue;    
     text-align: center;
   }
+
   table, th, td {
     border:1px solid tomato;
     background-color: pink;
     font-family: courier;
     width: 100%;
   }
+
   aside {
     width: 60%;
     padding-left: 20px;
@@ -34,6 +39,7 @@ body    {
     font-style: courier;
     background-color: pink;
   }
+
   .title {
     text-shadow: 2px 2px 5px red;
     background-color:pink;
@@ -44,6 +50,7 @@ body    {
     margin-top: 50px;
     margin-left: 10px;
   }
+
   a:link, a:visited {
     background-color: rgb(0, 210, 255);
     color: white;
@@ -53,9 +60,11 @@ body    {
     display: inline-block;
     cursor: pointer
   }
+
   a:hover {
     background-color: rgb(0, 135, 165);;
   }
+
   .buttonblue {
     background-color: powderblue;
     color: white;
@@ -66,6 +75,7 @@ body    {
     display: inline-block;
     cursor: pointer
   }
+
   .buttonblack {
     background-color: black;
     color: white;
@@ -76,6 +86,7 @@ body    {
     display: inline-block;
     cursor: pointer
   }
+
   .buttonwhite {
     background-color: white;
     color: black;
@@ -86,6 +97,7 @@ body    {
     display: inline-block;
     cursor: pointer
   }
+
   ul {
     list-style-type: none;
     margin: 0;
