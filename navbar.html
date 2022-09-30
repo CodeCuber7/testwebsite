@@ -1,0 +1,39 @@
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    min-width: 100%;
+  }
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 50;
+  }
+  #navbar a:hover {
+    background-color: #000;
+  }
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  #navbar a.notactive {
+    background-color: #333;
+    color: white;
+  }
+  .search {
+    height: 20px;
+    margin-top: 13px;
+    font-size: 20px;
+  }
+  <div>
+    <a class="active" href="https://codecuber7.github.io/testwebsite/">Home</a>
+    <a class="notactive" href="https://codecuber7.github.io/testwebsite/Otherpage.html">Other Page</a>
+    <input type="text" placeholder="Search" class="search">
+</div>
