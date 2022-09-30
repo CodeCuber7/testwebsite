@@ -2,36 +2,17 @@
 <html lang="en">
 <head>
 <title>Othere Page</title>
-<script>
-    window.onscroll = function() {myFunction()};
-    
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-    </script>
 <style>
     body    {
       background-color: powderblue;
     
-    }
-    .header {
-      background-color: #f1f1f1;
-      padding: 30px;
-      text-align: center;
     }
     #navbar {
       overflow: hidden;
       background-color: #333;
       height: 50px;
       font-family: 'Roboto', sans-serif;
-      position: sticky;
+      position: fixed;
     }
     
     #navbar a {
