@@ -27,7 +27,7 @@ body    {
   height: 50px;
   font-family: 'Roboto', sans-serif;
   position: fixed;
-  width: 1359px;
+  min-height: 100vh;
 }
 
 #navbar a {
@@ -53,9 +53,6 @@ body    {
 #navbar a.notactive {
   background-color: #333;
   color: white;
-}
-.content {
-  padding: 16px;
 }
 .search {
   height: 20px;
@@ -103,13 +100,14 @@ aside {
   font-style: courier;
   background-color: pink;
 }
-.shadow {
+.title {
   text-shadow: 2px 2px 5px red;
   background-color:pink;
   font-family:courier;
   font-size:120%;
   border: 2px solid Tomato;
   text-align: center;
+  margin-top: 20px;
 }
 a:link, a:visited {
   background-color: rgb(0, 210, 255);
@@ -163,7 +161,7 @@ a:hover, a:active {
     <input type="text" placeholder="Search" class="search">
 </div>
 <br>
-<div class="shadow">
+<div class="title">
   <h1>Cubing<i class="fa-sharp fa-solid fa-meteor"></i></h1>
 </div>
 </div>
@@ -186,9 +184,8 @@ a:hover, a:active {
 <div class="hdiv">
   <h2>Top 2 Cubers In The World</h2>
 </div>
-<br>
 <div>
-<table style="width:100%">
+<table>
   <tr>
     <th>Cuber</th>
     <th>Single</th>
