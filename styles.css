@@ -72,6 +72,7 @@ body    {
     display: inline-block;
     cursor: pointer;
     font-family: verdana;
+    border-radius: 8px;
   }
 
   .buttonblack {
@@ -84,6 +85,7 @@ body    {
     display: inline-block;
     cursor: pointer;
     font-family: verdana;
+    border-radius: 8px;
   }
 
   .buttonwhite {
@@ -96,6 +98,7 @@ body    {
     display: inline-block;
     cursor: pointer;
     font-family: verdana;
+    border-radius: 8px;
   }
 
   ul {
