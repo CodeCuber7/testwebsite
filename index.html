@@ -28,22 +28,28 @@
 <div class="title">
   <h1>Cubing<i class="fa-sharp fa-solid fa-meteor"></i></h1>
 </div>
-</div>
+
 <br>
+
 <div class="pdiv">
-<p> 
+<p>
   Cubing is one of the best hobbys because there's a great comunity and they will accept you. It's also alot of fun trying to get faster. 
   <a href="https://www.jperm.net" target="_blank">Visit Jperm.net</a>
 </p>
+</div>
+
 <div>
     <label>Change Webpage Background To:</label>
     <button class="buttonblue" type="button" onclick="changeBodyBg('Powderblue');">Powderblue</button>
     <button class="buttonblack" type="button" onclick="changeBodyBg('Black');">Black</button>
     <button class="buttonwhite" type="button" onclick="changeBodyBg('White');">White</button>
 </div>
-</div>
+
+
 <br>
+
 <img src="https://tse1.mm.bing.net/th?id=OIP.F9iLtNCpPEUMIiDr1dT67AHaEo&pid=Api&P=0" alt="html code" style="width: 500px;height: 300px;">
+
 <aside>
 <div class="hdiv">
   <h2>Top 2 Cubers In The World</h2>
@@ -72,19 +78,35 @@
   <p>These are the times of the 2 best cubers in the world.</p>
 </div>
 </aside>
+
 <br>
+
   <iframe height="400" width="1400" src="https://www.cubeskills.com/" title="CubeSkills"></iframe>
+
 <br>
-    <button type="button" onclick="myFunction()">Click To Change Word Under Me</button>
+
+    <button type="button" onclick="textChange()">Click To Change The Text Under Me</button>
+    <button type="button" onclick="textRevert()">Click To Revert The Text Under Me</button>
+
 <div class="pdiv">
-  <p id="cubing is cool">Cubing Is Cool</p>
+  <p id="cubing is cool">Cubing Is Cool.</p>
 </div>
+
 <script>
-function myFunction() { 
-  document.getElementById("cubing is cool").innerHTML = "CUBING IS THE BEST THING IN THE WORLD AND IF YOU SAY THAT'S NOT TRUE LEAVE!";
+function textChange() { 
+  document.getElementById("cubing is cool").innerHTML = 
+  "CUBING IS THE BEST THING IN THE WORLD AND IF YOU SAY THAT'S NOT TRUE LEAVE!";
 }
 </script>
+<script>
+  function textRevert() { 
+    document.getElementById("cubing is cool").innerHTML = 
+    "Cubing Is Cool.";
+  }
+</script>
+
 <br>
+
 <div class="mydiv">
     <div class="hdiv">
     <h2>Coding Is Fun</h2>
@@ -94,23 +116,15 @@ function myFunction() {
     </div>
   </div>
 <br>
-    <code>
-    x = 5;
-    y = 6;
-    z = x + y;
-    </code>
-    </pre>
-<p>What does y equal to?</p>
-<br>
+
 <p>I am an emoji &#9875;</p>
 <button type="button" onclick="alert('You have a virus on you computer lol')">Click Me!</button>
 <canvas id="myCanvas" width="200" height="100" style="border:2px solid black;">
 </canvas>
 
 <script>
-
-var c = document.getElementById("myCanvas")
-var ctx = c.getContext("2d")
+c = document.getElementById("myCanvas")
+ctx = c.getContext("2d")
 ctx.moveTo(0,0)
 ctx.lineTo(200,100)
 ctx.stroke()
