@@ -6,14 +6,12 @@ body    {
   .pdiv   {
       color:red;
       background-color:pink;
-      font-family:courier;
       font-size:120%;
       border: 2px solid Tomato;
   }
   
   .hdiv   {
       background-color:pink;
-      font-family:courier;
       font-size:120%;
       border: 2px solid Tomato;
   }
