@@ -150,7 +150,7 @@ body    {
   }
   @media screen and (max-width: 600px) {
   li {
-    float: none;
+    float: none !important;
     text-align: center;
   }
   }
