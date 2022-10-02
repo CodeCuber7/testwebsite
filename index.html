@@ -40,12 +40,13 @@
 
 <br>
 
-<div class="pdiv">
+<div class="bgdiv">
 <div>
     <label>Change Webpage Background To:</label>
     <button class="buttonblue" type="button" onclick="changeBodyBg('Powderblue');">Powderblue</button>
     <button class="buttonblack" type="button" onclick="changeBodyBg('Black');">Black</button>
     <button class="buttonwhite" type="button" onclick="changeBodyBg('White');">White</button>
+    <i class="fa-sharp fa-solid fa-ghost"></i>
 </div>
 </div>
 
@@ -126,17 +127,17 @@ function textChange() {
 </canvas>
 
 <script>
-  c = document.getElementById("myCanvas")
-  ctx = c.getContext("2d")
-  ctx.moveTo(0,0)
-  ctx.lineTo(200,100)
-  ctx.stroke()
-  ctx.beginPath()
-  ctx.arc(95, 50, 40, 0, 2 * Math.PI)
-  ctx.stroke()
-  ctx.moveTo(150,0)
-  ctx.lineTo(150,100)
-  ctx.stroke()
+c = document.getElementById("myCanvas")
+ctx = c.getContext("2d")
+ctx.moveTo(0,0)
+ctx.lineTo(200,100)
+ctx.stroke()
+ctx.beginPath()
+ctx.arc(95, 50, 40, 0, 2 * Math.PI)
+ctx.stroke()
+ctx.moveTo(150,0)
+ctx.lineTo(150,100)
+ctx.stroke()
 </script>
 
 <svg width="100" height="100">
