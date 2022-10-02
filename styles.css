@@ -2,7 +2,11 @@ body    {
     background-color: powderblue;
     margin-top: 0px;
   }
-  
+
+  .fontfamily {
+    font-family: courier;
+}
+
   .pdiv   {
       color:red;
       background-color:pink;
@@ -147,9 +151,5 @@ body    {
   @media screen and (max-width: 600px) {
   li {
     float: none;
-    text-align: center;
   }
-  }
-  .fontfamily {
-      font-family: courier;
   }
