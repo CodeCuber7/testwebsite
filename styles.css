@@ -116,6 +116,14 @@ aside {
     border-radius: 8px;
 }
 
+.buttontxtchange  {
+  background-color: rgb(145, 0, 255);
+}
+
+.buttontxtchange:hover  {
+  background-color: rgb(120, 0, 210);
+}
+
 ul.topnav {
   list-style-type: none !important;
   margin: 0 !important;
