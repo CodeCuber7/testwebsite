@@ -64,6 +64,8 @@ aside {
 link.jpermlink a:link, a:visited {
     background-color: rgb(0, 210, 255);
     color: white;
+    width: 50px;
+    height: 30px;
     padding: 12px 25px;
     text-align: center;
     text-decoration: none;
