@@ -125,6 +125,7 @@ ul.topnav {
   position: fixed !important;
   top: 0 !important;
   width: 100% !important;
+  margin-bottom: 50px;
 }
 
 ul.topnav li {
