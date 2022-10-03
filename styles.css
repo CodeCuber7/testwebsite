@@ -114,47 +114,39 @@ a:hover {
     border-radius: 8px;
 }
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    font-family: 'Roboto', sans-serif;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-  
-ul.topnav li {
-    float: left;
-}
-  
-ul.topnav li a {
-    display: block;
-    background-color: #333 !important;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-  
-ul.topnav li a:hover {
-    background-color: black !important;
-}
-  
-ul.topnav li a.active {
-    background-color: #04AA6D !important;
+ul {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background-color: #333 !important;
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
 }
 
-ul.topnav li.right {
-    float: right;
+li {
+  float: left !important;
+}
+
+li a {
+  display: block !important;
+  color: white !important;
+  text-align: center !important;
+  padding: 14px 16px !important;
+  text-decoration: none !important;
+}
+
+li a:hover {
+  background-color: #111 !important;
+}
+
+.active {
+  background-color: #04AA6D !important;
 }
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {
-    float: none;
-    text-align: center;
+li {
+  float: none !important;
 }
 }
