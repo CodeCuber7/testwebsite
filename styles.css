@@ -61,7 +61,7 @@ aside {
     margin-left: 10px;
 }
 
-a.jpermlink:link, :visited {
+.jpermbutton {
   background-color: rgb(0, 210, 255);
   color: white;
   width: 100px;
@@ -69,11 +69,11 @@ a.jpermlink:link, :visited {
   padding: 12px 25px;
   text-align: center;
   text-decoration: none;
-  display: block;
+  display: inline-block;
   cursor: pointer;
 }
 
-a.jpermlink:hover {
+.jpermbutton:hover {
   background-color: rgb(0, 135, 165);;
 }
 
