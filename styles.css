@@ -135,6 +135,7 @@ li a {
   text-align: center !important;
   padding: 14px 16px !important;
   text-decoration: none !important;
+  background-color: #333 !important;
 }
 
 li a:hover {
