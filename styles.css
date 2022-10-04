@@ -1,11 +1,8 @@
 body    {
     background-color: powderblue;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
   }
-
-.fontfamily {
-  font-family: 'Roboto', sans-serif;
-}
 
 .pdiv   {
       color:red;
