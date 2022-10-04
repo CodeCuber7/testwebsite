@@ -161,11 +161,8 @@ ul.topnav .active {
   background-color: #04AA6D !important;
 }
 
-@media screen and (max-width: 600px) {
-ul.topnav li {
-  float: none !important;
-}
-}
+
+
 ul.sidenav {
   list-style-type: none !important;
   margin: 0 !important;
