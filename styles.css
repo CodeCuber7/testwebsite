@@ -56,6 +56,10 @@ aside {
     margin-left: 10px;
 }
 
+button  {
+  font: 120%;
+}
+
 .jpermbutton {
   background-color: rgb(0, 210, 255);
   color: white;
