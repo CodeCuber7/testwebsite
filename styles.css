@@ -1,7 +1,7 @@
 body {
     background-color: powderblue;
     margin: 0;
-    font-family: courier;
+    font-family: Verdana,sans-serif;
   }
 
 .pdiv {
@@ -85,7 +85,6 @@ button  {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    font-family: verdana;
     border-radius: 8px;
 }
 
@@ -98,7 +97,6 @@ button  {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    font-family: verdana;
     border-radius: 8px;
 }
 
@@ -111,7 +109,6 @@ button  {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    font-family: verdana;
     border-radius: 8px;
 }
 
@@ -124,7 +121,6 @@ button  {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  font-family: verdana;
   border-radius: 8px;
 }
 
